@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Macker de groupe</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+    <main class="block">
+        <h1 class="block-title">Générateur de groupe</h1>
+        <form id="make-group" class="form">
+            <label for="nb-group" class="form-label">Nombre de groupes</label>
+            <select name="nb-group" id="nb-group" class="form-field">
+                <option value="1">1 groupe</option>
+                <option value="2">2 groupes</option>
+                <option value="3">3 groupes</option>
+                <option value="4">4 groupes</option>
+                <option value="5">5 groupes</option>
+                <option value="6">6 groupes</option>
+                <option value="7">7 groupes</option>
+            </select>
+            <button type="submit" class="btn">Générer</button>
+        </form>
+        <div id="result" class="result">
+            <p class="intro">Aucun groupe n'a été crée</p>
+        </div>
+    </main>
+    <script>
+        var students = [
+            "Alexandre",
+            "Amelle",
+            "Florian",
+            "Hazelle",
+            "Manon",
+            "Marie",
+            "Manuel",
+            "Mäeva",
+            "Mehdi",
+            "Mohammed",
+            "Myriam",
+            "Pauline",
+            "Shivansh",
+            "Quiong",
+            "Yasmine"
+        ];
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>
